@@ -82,10 +82,10 @@
                 'image2': { url: 'Pn/2.png', alt: 'Предыдущая страница' },
                 'image3': { url: 'Pn/3.png', alt: 'Следующая страница' },
                 'image4': { url: 'Pn/4.png', alt: 'Конец' },
-                // 'isshowimage': true,                                                                       //показывать кнопки перехода
-                // 'ishidebloc': false,                                                                       //скрывать кнопки при пограничных состояниях
-                // 'appender': "<pre>{0}</pre>",                                                              // код страници ( обязательно в теге)
-                // 'appender': "<a href='http://localhost:58852/TestPage.html?page={0}&count=100'>{0}</a>",
+                'isshowimage': true,                                                                       //показывать кнопки перехода
+                'ishidebloc': false,                                                                       //скрывать кнопки при пограничных состояниях
+                 //'appender': "<pre>{0}</pre>",                                                              // код страници ( обязательно в теге)
+                 //'appender': "<a href='http://localhost:58852/TestPage.html?page={0}&count=100'>{0}</a>",
                 'appender': "<a href='http://localhost:58852/TestPage.html#{0}page'>{0}</a>",
                 'isget': true,                                                                                //true - если в апендере применяются ссылки <a>
                 'eventclick': function (buttonid, page) {                                                     //событие  навигатора( первый параметр - код кнопки, второй выбранная страница)
