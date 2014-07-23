@@ -2,19 +2,18 @@
     cursor: pointer;
 }
 
- .pn_base div {
+.pn_base div {
     text-align: center;
 }
 
 #pn .pn_item {
     font-size: 20px;
     width: 25px;
-
 }
 
 
 
- .pn a {
+.pn a {
     text-decoration: none;
     color: black;
 }
@@ -27,8 +26,8 @@
 }
 
 #pn .pn_item:hover {
-    color: #ffe; /* Цвет текста активного пункта */
-    background-color: #5488af; /* Цвет фона активного пункта */
+    color: #ffe;
+    background-color: #5488af; 
 }
 
 #pn .pn_image1 {
@@ -42,22 +41,27 @@
     height: 20px;
     font-size: 20px;
 }
-#pn1 .pn_item  {
+
+#pn1 .pn_item {
     width: 35px;
-   
-     background-image:
-    radial-gradient(
-      yellow,
-      #f06d06
-    );
+    background-image: radial-gradient( yellow, #f06d06 );
 }
 
-#pn1 .pn_item_select  {
+#pn1 .pn_item_select {
     width: 35px;
-     
-     background-image:
-    radial-gradient(
-      beige,
-      brown
-    );
+    background-image: radial-gradient( beige, brown );
+}
+
+#pn1 .pn_image1 {
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    background-image: radial-gradient( beige, #f06d06 );
+}
+
+#pn1 .pn_image2 {
+    width: 60px;
+    height: 20px;
+    font-size: 20px;
+    background-image: radial-gradient( beige, #f06d06 );
 }
