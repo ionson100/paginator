@@ -4,54 +4,12 @@
     <title>Тест</title>
     <script src="Scripts/jquery-1.7.1.min.js"></script>
     <script src="Pn/paginator.js"></script>
-    <style type="text/css">
-        .pn {
-            cursor: pointer;
-        }
-
-        .pn_base div {
-            text-align: center;
-        }
-
-        .pn_item {
-            font-size: 20px;
-            width: 25px;
-        }
-
-      
-
-        .pn a {
-            text-decoration: none;
-            color: black;
-        }
-
-        .pn_item_select {
-            font-size: 25px;
-            width: 25px;
-            color: red;
-            /*background-color: gold;*/
-        }
-
-        .pn_item:hover {
-            color: #ffe; /* Цвет текста активного пункта */
-            background-color: #5488af; /* Цвет фона активного пункта */
-        }
-
-        .pn_image1 {
-            width: 20px;
-            height: 20px;
-            font-size: 20px;
-        }
-
-        .pn_image2 {
-            width: 40px;
-            height: 20px;
-            font-size: 20px;
-        }
-    </style>
+    <link href="Pn/paginator.css" rel="stylesheet" />
+  
     <script type="text/javascript">
         $(function () {
             parserUrl();
+            runPN($("#pn1"), 1, 300, 10);
         });
 
         function GetURLParameter(sParam) {
@@ -82,6 +40,7 @@
                 'image2': { url: 'Pn/2.png', alt: 'Предыдущая страница' },
                 'image3': { url: 'Pn/3.png', alt: 'Следующая страница' },
                 'image4': { url: 'Pn/4.png', alt: 'Конец' },
+                
                 'isshowimage': true,                                                                       //показывать кнопки перехода
                 'ishidebloc': false,                                                                       //скрывать кнопки при пограничных состояниях
                  //'appender': "<pre>{0}</pre>",                                                              // код страници ( обязательно в теге)
@@ -98,8 +57,10 @@
     </script>
 </head>
 <body>
-    <div id="pn" onclick='' class="pn_base">
-    </div>
+    <div id="pn"  class="pn_base"> </div>
+   
+     <div id="pn1"  class="pn_base"></div>
+    
     <div style="width: 700px">
 
         <pre>  Не замысловатый плагин  для клиента – панель навигации типа пейджинг.<br />  Какие параметры подаем на вход:

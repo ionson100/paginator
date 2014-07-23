@@ -1,0 +1,63 @@
+﻿.pn {
+    cursor: pointer;
+}
+
+ .pn_base div {
+    text-align: center;
+}
+
+#pn .pn_item {
+    font-size: 20px;
+    width: 25px;
+
+}
+
+
+
+ .pn a {
+    text-decoration: none;
+    color: black;
+}
+
+#pn .pn_item_select {
+    font-size: 25px;
+    width: 25px;
+    color: red;
+    /*background-color: gold;*/
+}
+
+#pn .pn_item:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+}
+
+#pn .pn_image1 {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#pn .pn_image2 {
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+}
+#pn1 .pn_item  {
+    width: 35px;
+   
+     background-image:
+    radial-gradient(
+      yellow,
+      #f06d06
+    );
+}
+
+#pn1 .pn_item_select  {
+    width: 35px;
+     
+     background-image:
+    radial-gradient(
+      beige,
+      brown
+    );
+}

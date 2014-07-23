@@ -43,6 +43,7 @@
     <Content Include="Pn\2.png" />
     <Content Include="Pn\3.png" />
     <Content Include="Pn\4.png" />
+    <Content Include="Pn\paginator.css" />
     <Content Include="Pn\paginator.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="ss.jpg" />
