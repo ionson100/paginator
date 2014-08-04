@@ -92,7 +92,7 @@
             }
         }
 
-        addSelectHidde(tr, intem);
+        addSelectHidden(tr, intem);
         $(div).append(table.append(tr));
     }
 
@@ -119,7 +119,7 @@
         tr.append(td.append(div.append(pattern)));
     }
 
-    function addSelectHidde(tr, value) {
+    function addSelectHidden(tr, value) {
         var td = $("<td></td>");
         var zip = $("#selectitem").size();
         var addin = zip == 0 ? "" : zip + 1;
