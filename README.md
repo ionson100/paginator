@@ -12,7 +12,7 @@ paginator
        'image3': { url: 'Pn/3.png', alt: 'Следующая страница' },
        'image4': { url: 'Pn/4.png', alt: 'Конец' },
        'isshowimage': true,                                                                       
-       'ishidebloc': false,                                                                       
+       'ishiddenbloc': false,                                                                       
         //'appender': "<pre>{0}</pre>",                                                            
         //'appender': "<a href='http://localhost:58852/TestPage.html?page={0}&count=100'>{0}</a>",
        'appender': "<a href='http://localhost:58852/TestPage.html#{0}page'>{0}</a>",
@@ -46,7 +46,7 @@ paginator
   **isshowimage** – если по каким то причинам не желаете уже заполненные кнопки
   показывать, можно пользоваться этим свойством, по умолчанию – верно.
 
-  **ishidebloc** - это для фанатов все скрывать, скрывает блок кнопок
+  **ishiddenbloc** - это для фанатов все скрывать, скрывает блок кнопок
   при пограничном состоянии выбора.
 
   **appender** –  это главная часть, что вы будете вводить в div - расположения
