@@ -10,7 +10,7 @@
             'image4': null,
             'eventclick': null,
             'isshowimage': true,
-            'ishidebloc': false,
+            'ishiddenbloc': false,
             'appender': '<div>{0}</div>',
             'isget': false,
         }, options);
@@ -30,7 +30,7 @@
         var tr = $('<tr></tr>').addClass('pn_tabe_row');
 
         if (settings.isshowimage) {
-            if (intem != 1 || !settings.ishidebloc) {
+            if (intem != 1 || !settings.ishiddenbloc) {
                 if (settings.image1 != null) {
 
                     addTdImage(tr, intem == 1 ? 'pn_image1' : 'pn_image1 pn', -1, settings.image1.alt, settings.image1.url, settings, div, intem != 1);
@@ -82,7 +82,7 @@
         }
 
         if (settings.isshowimage) {
-            if (intem != settings.totalcount || !settings.ishidebloc) {
+            if (intem != settings.totalcount || !settings.ishiddenbloc) {
                 if (settings.image3 != null) {
                     addTdImage(tr, intem == settings.totalcount ? 'pn_image2' : 'pn_image2 pn', -3, settings.image3.alt, settings.image3.url, settings, div, intem != settings.totalcount);
                 }
