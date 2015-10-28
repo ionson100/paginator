@@ -2,7 +2,7 @@ paginator
 =========
 ![paginator](https://github.com/ionson100/paginator/blob/master/PanelNavigator/ss.jpg "paginator")
 
-```
+```javascript
    div.Panelnavigations({
        'totalcount': 100,                                                                   
        'select': 10,                                                                      
